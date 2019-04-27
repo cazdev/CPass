@@ -22,3 +22,15 @@ E:\Users\Chaz\Dropbox\CPass\CMessage\obj\Debug\CPass.csproj.CoreCompileInputs.ca
 E:\Users\Chaz\Dropbox\CPass\CMessage\obj\Debug\CPass.csproj.Fody.CopyLocal.cache
 E:\Users\Chaz\Dropbox\CPass\CMessage\obj\Debug\CPass.exe
 E:\Users\Chaz\Dropbox\CPass\CMessage\obj\Debug\CPass.pdb
+C:\C#\CPass\CMessage\bin\Debug\CPass.exe.config
+C:\C#\CPass\CMessage\bin\Debug\CPass.exe
+C:\C#\CPass\CMessage\bin\Debug\CPass.pdb
+C:\C#\CPass\CMessage\obj\Debug\CPass.csprojAssemblyReference.cache
+C:\C#\CPass\CMessage\obj\Debug\CMessage.frmCMessage.resources
+C:\C#\CPass\CMessage\obj\Debug\CMessage.frmContent.resources
+C:\C#\CPass\CMessage\obj\Debug\CPass.Properties.Resources.resources
+C:\C#\CPass\CMessage\obj\Debug\CPass.csproj.GenerateResource.cache
+C:\C#\CPass\CMessage\obj\Debug\CPass.csproj.CoreCompileInputs.cache
+C:\C#\CPass\CMessage\obj\Debug\CPass.csproj.Fody.CopyLocal.cache
+C:\C#\CPass\CMessage\obj\Debug\CPass.exe
+C:\C#\CPass\CMessage\obj\Debug\CPass.pdb

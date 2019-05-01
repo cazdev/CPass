@@ -22,8 +22,7 @@ namespace CMessage
         public static extern bool ReleaseCapture();
 
         private readonly ViewModel viewModel = new ViewModel();
-
-        private readonly SecureString SecString = new NetworkCredential("", "TljO3NBhu088VIE36VSAmzJqfo1qSKFg48D9VzHAAythPimmy/+KRCys1pqBptpqB4WEczUNbVG645WSWy77cCgcW7v05ur+qyWzF+ZlIA/fIhdwCJG8s41oEWkT58re").SecurePassword;
+        string password = ViewModel.pass;
 
         public frmContent()
         {
@@ -107,7 +106,7 @@ namespace CMessage
                 {
                     //first start
                     string plaintext = txtPass.Text; //user's pass
-                    string passPhrase = new NetworkCredential("", SecString).Password; //pass to encrypt
+                    string passPhrase = password; //pass to encrypt
                     string encryptedstring = StringCipher.Encrypt(plaintext, passPhrase); //encrypted pass
 
                     SavePassword(encryptedstring); //create folder and write encrypted pass there
@@ -133,7 +132,7 @@ namespace CMessage
                             string line;
                             while ((line = r.ReadLine()) != null)
                             {
-                                lstInfo.Items.Add(StringCipher.Decrypt(line, new NetworkCredential("", SecString).Password));
+                                lstInfo.Items.Add(StringCipher.Decrypt(line, password));
                             }
                         }
 
@@ -155,7 +154,7 @@ namespace CMessage
             string decryptedstring = "";
 
             encryptedstring = File.ReadAllText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "CPass/pass.key"));
-            decryptedstring = StringCipher.Decrypt(encryptedstring, new NetworkCredential("", SecString).Password);
+            decryptedstring = StringCipher.Decrypt(encryptedstring, password);
             return decryptedstring;
         }
 
@@ -284,7 +283,7 @@ namespace CMessage
 
             foreach (object o in lstInfo.Items)
             {
-                sb.AppendLine(StringCipher.Encrypt(o.ToString(), new NetworkCredential("", SecString).Password));
+                sb.AppendLine(StringCipher.Encrypt(o.ToString(), password));
             }
 
             System.IO.File.WriteAllText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "CPass/info.enc"), sb.ToString());

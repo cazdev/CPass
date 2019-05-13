@@ -7,3 +7,7 @@
 - Great design 😉
 
 Stores encrypted information locally in %appdata%/CPass, 
+
+## TO-DO
+Plain text export and import
+Afk/Idle timeout with message asking if the user is idle then if no response return to login

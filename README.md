@@ -1,4 +1,4 @@
-![image](https://i.ibb.co/4fzpNcK/unknown.png)
+![image](https://i.ibb.co/Jx63J2K/unknown.png)
 
 # CPass
 - A password manager I made for personal use.

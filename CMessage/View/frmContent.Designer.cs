@@ -31,11 +31,32 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmContent));
             this.lblHint2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.tmrFlash = new System.Windows.Forms.Timer(this.components);
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.lblVersion = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lblTop = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.lblTop = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lblVersion = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pnlCopied = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btnCopy = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnRemove = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnSettings = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btnAdd = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.txtSearch = new Bunifu.Framework.UI.BunifuTextbox();
+            this.pnlAddNewEntry = new System.Windows.Forms.Panel();
+            this.btnCancel = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnAddEntry = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuCustomLabel18 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.txtNameEntry = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtPassEntry = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtUserEntry = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.pnlWipe = new System.Windows.Forms.Panel();
             this.btnWipeAll = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnBackWipe = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -54,8 +75,6 @@
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.pnlCopied = new System.Windows.Forms.Panel();
-            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pnlCopy = new System.Windows.Forms.Panel();
             this.BtnBack = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnCopyUser = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -74,26 +93,6 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btnCopy = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.pnlAddNewEntry = new System.Windows.Forms.Panel();
-            this.btnCancel = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnAddEntry = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuCustomLabel18 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.txtNameEntry = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.txtPassEntry = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.txtUserEntry = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.btnRemove = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnSettings = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
-            this.btnAdd = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.txtSearch = new Bunifu.Framework.UI.BunifuTextbox();
             this.lstInfo = new System.Windows.Forms.ListBox();
             this.lblHint = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txtPass = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -110,13 +109,14 @@
             this.tmrCopy = new System.Windows.Forms.Timer(this.components);
             this.tmrClose = new System.Windows.Forms.Timer(this.components);
             this.pnlContent.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.pnlCopied.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
+            this.pnlAddNewEntry.SuspendLayout();
             this.pnlWipe.SuspendLayout();
             this.pnlSettings.SuspendLayout();
-            this.pnlCopied.SuspendLayout();
             this.pnlCopy.SuspendLayout();
             this.pnlAreYouSure.SuspendLayout();
-            this.pnlAddNewEntry.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose2)).BeginInit();
             this.pnlLoading.SuspendLayout();
@@ -133,29 +133,22 @@
             this.lblHint2.TabIndex = 6;
             this.lblHint2.Text = "Must contain atleast 1 number";
             // 
-            // tmrFlash
-            // 
-            this.tmrFlash.Interval = 300;
-            this.tmrFlash.Tick += new System.EventHandler(this.tmrFlash_Tick);
-            // 
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.pnlContent.Controls.Add(this.lblVersion);
-            this.pnlContent.Controls.Add(this.lblTop);
             this.pnlContent.Controls.Add(this.panel6);
-            this.pnlContent.Controls.Add(this.pnlWipe);
-            this.pnlContent.Controls.Add(this.pnlSettings);
             this.pnlContent.Controls.Add(this.pnlCopied);
-            this.pnlContent.Controls.Add(this.pnlCopy);
-            this.pnlContent.Controls.Add(this.pnlAreYouSure);
             this.pnlContent.Controls.Add(this.btnCopy);
-            this.pnlContent.Controls.Add(this.pnlAddNewEntry);
             this.pnlContent.Controls.Add(this.btnRemove);
             this.pnlContent.Controls.Add(this.btnSettings);
             this.pnlContent.Controls.Add(this.btnClose);
             this.pnlContent.Controls.Add(this.btnAdd);
             this.pnlContent.Controls.Add(this.txtSearch);
+            this.pnlContent.Controls.Add(this.pnlAddNewEntry);
+            this.pnlContent.Controls.Add(this.pnlWipe);
+            this.pnlContent.Controls.Add(this.pnlSettings);
+            this.pnlContent.Controls.Add(this.pnlCopy);
+            this.pnlContent.Controls.Add(this.pnlAreYouSure);
             this.pnlContent.Controls.Add(this.lstInfo);
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContent.Location = new System.Drawing.Point(0, 0);
@@ -165,25 +158,25 @@
             this.pnlContent.Visible = false;
             this.pnlContent.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlContent_MouseDown);
             // 
-            // lblVersion
+            // panel6
             // 
-            this.lblVersion.AutoSize = true;
-            this.lblVersion.BackColor = System.Drawing.Color.Transparent;
-            this.lblVersion.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVersion.ForeColor = System.Drawing.Color.White;
-            this.lblVersion.Location = new System.Drawing.Point(715, 216);
-            this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(42, 25);
-            this.lblVersion.TabIndex = 35;
-            this.lblVersion.Text = "v1.0";
-            this.lblVersion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmContent_MouseDown);
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.panel6.BackgroundImage = global::CPass.Properties.Resources.lock_unlocked_512;
+            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel6.Controls.Add(this.lblTop);
+            this.panel6.Controls.Add(this.lblVersion);
+            this.panel6.Location = new System.Drawing.Point(591, 63);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(209, 348);
+            this.panel6.TabIndex = 41;
+            this.panel6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmContent_MouseDown);
             // 
             // lblTop
             // 
             this.lblTop.BackColor = System.Drawing.Color.Transparent;
             this.lblTop.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTop.ForeColor = System.Drawing.Color.White;
-            this.lblTop.Location = new System.Drawing.Point(615, 202);
+            this.lblTop.Location = new System.Drawing.Point(44, 115);
             this.lblTop.Name = "lblTop";
             this.lblTop.Size = new System.Drawing.Size(109, 50);
             this.lblTop.TabIndex = 3;
@@ -191,16 +184,380 @@
             this.lblTop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmContent_MouseDown);
             // 
-            // panel6
+            // lblVersion
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.panel6.BackgroundImage = global::CPass.Properties.Resources.lock_unlocked_512;
-            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel6.Location = new System.Drawing.Point(591, 63);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(209, 348);
-            this.panel6.TabIndex = 41;
-            this.panel6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmContent_MouseDown);
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.BackColor = System.Drawing.Color.Transparent;
+            this.lblVersion.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVersion.ForeColor = System.Drawing.Color.White;
+            this.lblVersion.Location = new System.Drawing.Point(144, 129);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(42, 25);
+            this.lblVersion.TabIndex = 35;
+            this.lblVersion.Text = "v1.0";
+            this.lblVersion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmContent_MouseDown);
+            // 
+            // pnlCopied
+            // 
+            this.pnlCopied.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.pnlCopied.Controls.Add(this.bunifuCustomLabel1);
+            this.pnlCopied.Location = new System.Drawing.Point(232, 5);
+            this.pnlCopied.Name = "pnlCopied";
+            this.pnlCopied.Size = new System.Drawing.Size(354, 49);
+            this.pnlCopied.TabIndex = 36;
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Segoe UI Light", 25F);
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(3, -1);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(351, 50);
+            this.bunifuCustomLabel1.TabIndex = 4;
+            this.bunifuCustomLabel1.Text = "Copied to clipboard";
+            this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnCopy
+            // 
+            this.btnCopy.ActiveBorderThickness = 1;
+            this.btnCopy.ActiveCornerRadius = 20;
+            this.btnCopy.ActiveFillColor = System.Drawing.Color.Teal;
+            this.btnCopy.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnCopy.ActiveLineColor = System.Drawing.Color.Teal;
+            this.btnCopy.AutoSize = true;
+            this.btnCopy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnCopy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCopy.BackgroundImage")));
+            this.btnCopy.ButtonText = "Copy";
+            this.btnCopy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCopy.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCopy.ForeColor = System.Drawing.Color.Teal;
+            this.btnCopy.IdleBorderThickness = 1;
+            this.btnCopy.IdleCornerRadius = 20;
+            this.btnCopy.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnCopy.IdleForecolor = System.Drawing.Color.Teal;
+            this.btnCopy.IdleLineColor = System.Drawing.Color.Teal;
+            this.btnCopy.Location = new System.Drawing.Point(322, 395);
+            this.btnCopy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCopy.Name = "btnCopy";
+            this.btnCopy.Size = new System.Drawing.Size(90, 45);
+            this.btnCopy.TabIndex = 27;
+            this.btnCopy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.ActiveBorderThickness = 1;
+            this.btnRemove.ActiveCornerRadius = 20;
+            this.btnRemove.ActiveFillColor = System.Drawing.Color.Crimson;
+            this.btnRemove.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnRemove.ActiveLineColor = System.Drawing.Color.Crimson;
+            this.btnRemove.AutoSize = true;
+            this.btnRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnRemove.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRemove.BackgroundImage")));
+            this.btnRemove.ButtonText = "Remove";
+            this.btnRemove.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRemove.ForeColor = System.Drawing.Color.Crimson;
+            this.btnRemove.IdleBorderThickness = 1;
+            this.btnRemove.IdleCornerRadius = 20;
+            this.btnRemove.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnRemove.IdleForecolor = System.Drawing.Color.Crimson;
+            this.btnRemove.IdleLineColor = System.Drawing.Color.Crimson;
+            this.btnRemove.Location = new System.Drawing.Point(224, 395);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(90, 45);
+            this.btnRemove.TabIndex = 25;
+            this.btnRemove.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.ActiveBorderThickness = 1;
+            this.btnSettings.ActiveCornerRadius = 20;
+            this.btnSettings.ActiveFillColor = System.Drawing.Color.Teal;
+            this.btnSettings.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnSettings.ActiveLineColor = System.Drawing.Color.Teal;
+            this.btnSettings.AutoSize = true;
+            this.btnSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnSettings.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSettings.BackgroundImage")));
+            this.btnSettings.ButtonText = "Settings";
+            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSettings.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSettings.ForeColor = System.Drawing.Color.Teal;
+            this.btnSettings.IdleBorderThickness = 1;
+            this.btnSettings.IdleCornerRadius = 20;
+            this.btnSettings.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnSettings.IdleForecolor = System.Drawing.Color.Teal;
+            this.btnSettings.IdleLineColor = System.Drawing.Color.Teal;
+            this.btnSettings.Location = new System.Drawing.Point(420, 395);
+            this.btnSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(90, 45);
+            this.btnSettings.TabIndex = 15;
+            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(0)))), ((int)(((byte)(21)))));
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.ErrorImage = null;
+            this.btnClose.Image = global::CPass.Properties.Resources.RedX;
+            this.btnClose.ImageActive = null;
+            this.btnClose.InitialImage = null;
+            this.btnClose.Location = new System.Drawing.Point(744, -2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(46, 23);
+            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnClose.TabIndex = 14;
+            this.btnClose.TabStop = false;
+            this.btnClose.Zoom = 10;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.ActiveBorderThickness = 1;
+            this.btnAdd.ActiveCornerRadius = 20;
+            this.btnAdd.ActiveFillColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAdd.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnAdd.ActiveLineColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAdd.AutoSize = true;
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnAdd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAdd.BackgroundImage")));
+            this.btnAdd.ButtonText = "Add";
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAdd.IdleBorderThickness = 1;
+            this.btnAdd.IdleCornerRadius = 20;
+            this.btnAdd.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnAdd.IdleForecolor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAdd.IdleLineColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAdd.Location = new System.Drawing.Point(126, 395);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(90, 45);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.txtSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtSearch.BackgroundImage")));
+            this.txtSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.txtSearch.ForeColor = System.Drawing.Color.Teal;
+            this.txtSearch.Icon = ((System.Drawing.Image)(resources.GetObject("txtSearch.Icon")));
+            this.txtSearch.Location = new System.Drawing.Point(126, 16);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(384, 40);
+            this.txtSearch.TabIndex = 1;
+            this.txtSearch.text = "";
+            this.txtSearch.OnTextChange += new System.EventHandler(this.txtSearch_OnTextChange);
+            // 
+            // pnlAddNewEntry
+            // 
+            this.pnlAddNewEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.pnlAddNewEntry.Controls.Add(this.btnCancel);
+            this.pnlAddNewEntry.Controls.Add(this.panel5);
+            this.pnlAddNewEntry.Controls.Add(this.panel4);
+            this.pnlAddNewEntry.Controls.Add(this.panel2);
+            this.pnlAddNewEntry.Controls.Add(this.panel3);
+            this.pnlAddNewEntry.Controls.Add(this.btnAddEntry);
+            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel18);
+            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel17);
+            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel16);
+            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel15);
+            this.pnlAddNewEntry.Controls.Add(this.txtNameEntry);
+            this.pnlAddNewEntry.Controls.Add(this.txtPassEntry);
+            this.pnlAddNewEntry.Controls.Add(this.txtUserEntry);
+            this.pnlAddNewEntry.Location = new System.Drawing.Point(148, 59);
+            this.pnlAddNewEntry.Name = "pnlAddNewEntry";
+            this.pnlAddNewEntry.Size = new System.Drawing.Size(502, 312);
+            this.pnlAddNewEntry.TabIndex = 26;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.ActiveBorderThickness = 1;
+            this.btnCancel.ActiveCornerRadius = 20;
+            this.btnCancel.ActiveFillColor = System.Drawing.Color.Crimson;
+            this.btnCancel.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.btnCancel.ActiveLineColor = System.Drawing.Color.Crimson;
+            this.btnCancel.AutoSize = true;
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnCancel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancel.BackgroundImage")));
+            this.btnCancel.ButtonText = "Cancel";
+            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.Color.Crimson;
+            this.btnCancel.IdleBorderThickness = 1;
+            this.btnCancel.IdleCornerRadius = 20;
+            this.btnCancel.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.btnCancel.IdleForecolor = System.Drawing.Color.Crimson;
+            this.btnCancel.IdleLineColor = System.Drawing.Color.Crimson;
+            this.btnCancel.Location = new System.Drawing.Point(355, 252);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(95, 45);
+            this.btnCancel.TabIndex = 33;
+            this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel5.Location = new System.Drawing.Point(0, 1);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(502, 10);
+            this.panel5.TabIndex = 32;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel4.Location = new System.Drawing.Point(492, 10);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 305);
+            this.panel4.TabIndex = 30;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel2.Location = new System.Drawing.Point(10, 302);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(502, 10);
+            this.panel2.TabIndex = 28;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel3.Location = new System.Drawing.Point(0, 10);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 305);
+            this.panel3.TabIndex = 29;
+            // 
+            // btnAddEntry
+            // 
+            this.btnAddEntry.ActiveBorderThickness = 1;
+            this.btnAddEntry.ActiveCornerRadius = 20;
+            this.btnAddEntry.ActiveFillColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAddEntry.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.btnAddEntry.ActiveLineColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAddEntry.AutoSize = true;
+            this.btnAddEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.btnAddEntry.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAddEntry.BackgroundImage")));
+            this.btnAddEntry.ButtonText = "Add entry";
+            this.btnAddEntry.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddEntry.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddEntry.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAddEntry.IdleBorderThickness = 1;
+            this.btnAddEntry.IdleCornerRadius = 20;
+            this.btnAddEntry.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.btnAddEntry.IdleForecolor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAddEntry.IdleLineColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnAddEntry.Location = new System.Drawing.Point(220, 252);
+            this.btnAddEntry.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAddEntry.Name = "btnAddEntry";
+            this.btnAddEntry.Size = new System.Drawing.Size(127, 45);
+            this.btnAddEntry.TabIndex = 31;
+            this.btnAddEntry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnAddEntry.Click += new System.EventHandler(this.btnAddEntry_Click);
+            // 
+            // bunifuCustomLabel18
+            // 
+            this.bunifuCustomLabel18.Font = new System.Drawing.Font("Segoe UI Light", 14F);
+            this.bunifuCustomLabel18.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel18.Location = new System.Drawing.Point(5, 141);
+            this.bunifuCustomLabel18.Name = "bunifuCustomLabel18";
+            this.bunifuCustomLabel18.Size = new System.Drawing.Size(104, 28);
+            this.bunifuCustomLabel18.TabIndex = 30;
+            this.bunifuCustomLabel18.Text = "Username";
+            this.bunifuCustomLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel17
+            // 
+            this.bunifuCustomLabel17.Font = new System.Drawing.Font("Segoe UI Light", 14F);
+            this.bunifuCustomLabel17.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel17.Location = new System.Drawing.Point(5, 194);
+            this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
+            this.bunifuCustomLabel17.Size = new System.Drawing.Size(104, 28);
+            this.bunifuCustomLabel17.TabIndex = 29;
+            this.bunifuCustomLabel17.Text = "Password";
+            this.bunifuCustomLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel16
+            // 
+            this.bunifuCustomLabel16.Font = new System.Drawing.Font("Segoe UI Light", 14F);
+            this.bunifuCustomLabel16.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel16.Location = new System.Drawing.Point(3, 86);
+            this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
+            this.bunifuCustomLabel16.Size = new System.Drawing.Size(104, 28);
+            this.bunifuCustomLabel16.TabIndex = 28;
+            this.bunifuCustomLabel16.Text = "Name";
+            this.bunifuCustomLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel15
+            // 
+            this.bunifuCustomLabel15.Font = new System.Drawing.Font("Segoe UI Light", 20F);
+            this.bunifuCustomLabel15.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel15.Location = new System.Drawing.Point(113, 5);
+            this.bunifuCustomLabel15.Name = "bunifuCustomLabel15";
+            this.bunifuCustomLabel15.Size = new System.Drawing.Size(337, 50);
+            this.bunifuCustomLabel15.TabIndex = 27;
+            this.bunifuCustomLabel15.Text = "Add new entry";
+            this.bunifuCustomLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtNameEntry
+            // 
+            this.txtNameEntry.BorderColorFocused = System.Drawing.Color.Teal;
+            this.txtNameEntry.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtNameEntry.BorderColorMouseHover = System.Drawing.Color.Teal;
+            this.txtNameEntry.BorderThickness = 3;
+            this.txtNameEntry.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNameEntry.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNameEntry.ForeColor = System.Drawing.Color.Silver;
+            this.txtNameEntry.isPassword = false;
+            this.txtNameEntry.Location = new System.Drawing.Point(113, 76);
+            this.txtNameEntry.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNameEntry.Name = "txtNameEntry";
+            this.txtNameEntry.Size = new System.Drawing.Size(338, 44);
+            this.txtNameEntry.TabIndex = 3;
+            this.txtNameEntry.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtPassEntry
+            // 
+            this.txtPassEntry.BorderColorFocused = System.Drawing.Color.Teal;
+            this.txtPassEntry.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtPassEntry.BorderColorMouseHover = System.Drawing.Color.Teal;
+            this.txtPassEntry.BorderThickness = 3;
+            this.txtPassEntry.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPassEntry.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassEntry.ForeColor = System.Drawing.Color.Silver;
+            this.txtPassEntry.isPassword = false;
+            this.txtPassEntry.Location = new System.Drawing.Point(114, 184);
+            this.txtPassEntry.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassEntry.Name = "txtPassEntry";
+            this.txtPassEntry.Size = new System.Drawing.Size(337, 44);
+            this.txtPassEntry.TabIndex = 5;
+            this.txtPassEntry.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // txtUserEntry
+            // 
+            this.txtUserEntry.BorderColorFocused = System.Drawing.Color.Teal;
+            this.txtUserEntry.BorderColorIdle = System.Drawing.Color.Gray;
+            this.txtUserEntry.BorderColorMouseHover = System.Drawing.Color.Teal;
+            this.txtUserEntry.BorderThickness = 3;
+            this.txtUserEntry.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUserEntry.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserEntry.ForeColor = System.Drawing.Color.Silver;
+            this.txtUserEntry.isPassword = false;
+            this.txtUserEntry.Location = new System.Drawing.Point(113, 132);
+            this.txtUserEntry.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUserEntry.Name = "txtUserEntry";
+            this.txtUserEntry.Size = new System.Drawing.Size(337, 44);
+            this.txtUserEntry.TabIndex = 4;
+            this.txtUserEntry.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // pnlWipe
             // 
@@ -453,26 +810,6 @@
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(10, 305);
             this.panel18.TabIndex = 29;
-            // 
-            // pnlCopied
-            // 
-            this.pnlCopied.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.pnlCopied.Controls.Add(this.bunifuCustomLabel1);
-            this.pnlCopied.Location = new System.Drawing.Point(232, 5);
-            this.pnlCopied.Name = "pnlCopied";
-            this.pnlCopied.Size = new System.Drawing.Size(354, 49);
-            this.pnlCopied.TabIndex = 36;
-            // 
-            // bunifuCustomLabel1
-            // 
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Segoe UI Light", 25F);
-            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(3, -1);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(351, 50);
-            this.bunifuCustomLabel1.TabIndex = 4;
-            this.bunifuCustomLabel1.Text = "Copied to clipboard";
-            this.bunifuCustomLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnlCopy
             // 
@@ -754,348 +1091,6 @@
             this.bunifuCustomLabel22.Text = "Are you sure you want to delete this entry";
             this.bunifuCustomLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnCopy
-            // 
-            this.btnCopy.ActiveBorderThickness = 1;
-            this.btnCopy.ActiveCornerRadius = 20;
-            this.btnCopy.ActiveFillColor = System.Drawing.Color.Teal;
-            this.btnCopy.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnCopy.ActiveLineColor = System.Drawing.Color.Teal;
-            this.btnCopy.AutoSize = true;
-            this.btnCopy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnCopy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCopy.BackgroundImage")));
-            this.btnCopy.ButtonText = "Copy";
-            this.btnCopy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCopy.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCopy.ForeColor = System.Drawing.Color.Teal;
-            this.btnCopy.IdleBorderThickness = 1;
-            this.btnCopy.IdleCornerRadius = 20;
-            this.btnCopy.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnCopy.IdleForecolor = System.Drawing.Color.Teal;
-            this.btnCopy.IdleLineColor = System.Drawing.Color.Teal;
-            this.btnCopy.Location = new System.Drawing.Point(322, 395);
-            this.btnCopy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCopy.Name = "btnCopy";
-            this.btnCopy.Size = new System.Drawing.Size(90, 45);
-            this.btnCopy.TabIndex = 27;
-            this.btnCopy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
-            // 
-            // pnlAddNewEntry
-            // 
-            this.pnlAddNewEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.pnlAddNewEntry.Controls.Add(this.btnCancel);
-            this.pnlAddNewEntry.Controls.Add(this.panel5);
-            this.pnlAddNewEntry.Controls.Add(this.panel4);
-            this.pnlAddNewEntry.Controls.Add(this.panel2);
-            this.pnlAddNewEntry.Controls.Add(this.panel3);
-            this.pnlAddNewEntry.Controls.Add(this.btnAddEntry);
-            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel18);
-            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel17);
-            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel16);
-            this.pnlAddNewEntry.Controls.Add(this.bunifuCustomLabel15);
-            this.pnlAddNewEntry.Controls.Add(this.txtNameEntry);
-            this.pnlAddNewEntry.Controls.Add(this.txtPassEntry);
-            this.pnlAddNewEntry.Controls.Add(this.txtUserEntry);
-            this.pnlAddNewEntry.Location = new System.Drawing.Point(148, 59);
-            this.pnlAddNewEntry.Name = "pnlAddNewEntry";
-            this.pnlAddNewEntry.Size = new System.Drawing.Size(502, 312);
-            this.pnlAddNewEntry.TabIndex = 26;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.ActiveBorderThickness = 1;
-            this.btnCancel.ActiveCornerRadius = 20;
-            this.btnCancel.ActiveFillColor = System.Drawing.Color.Crimson;
-            this.btnCancel.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
-            this.btnCancel.ActiveLineColor = System.Drawing.Color.Crimson;
-            this.btnCancel.AutoSize = true;
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnCancel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancel.BackgroundImage")));
-            this.btnCancel.ButtonText = "Cancel";
-            this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.Color.Crimson;
-            this.btnCancel.IdleBorderThickness = 1;
-            this.btnCancel.IdleCornerRadius = 20;
-            this.btnCancel.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
-            this.btnCancel.IdleForecolor = System.Drawing.Color.Crimson;
-            this.btnCancel.IdleLineColor = System.Drawing.Color.Crimson;
-            this.btnCancel.Location = new System.Drawing.Point(355, 252);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(95, 45);
-            this.btnCancel.TabIndex = 33;
-            this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel5.Location = new System.Drawing.Point(0, 1);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(502, 10);
-            this.panel5.TabIndex = 32;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel4.Location = new System.Drawing.Point(492, 10);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 305);
-            this.panel4.TabIndex = 30;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel2.Location = new System.Drawing.Point(10, 302);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(502, 10);
-            this.panel2.TabIndex = 28;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel3.Location = new System.Drawing.Point(0, 10);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 305);
-            this.panel3.TabIndex = 29;
-            // 
-            // btnAddEntry
-            // 
-            this.btnAddEntry.ActiveBorderThickness = 1;
-            this.btnAddEntry.ActiveCornerRadius = 20;
-            this.btnAddEntry.ActiveFillColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAddEntry.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
-            this.btnAddEntry.ActiveLineColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAddEntry.AutoSize = true;
-            this.btnAddEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnAddEntry.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAddEntry.BackgroundImage")));
-            this.btnAddEntry.ButtonText = "Add entry";
-            this.btnAddEntry.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAddEntry.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddEntry.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAddEntry.IdleBorderThickness = 1;
-            this.btnAddEntry.IdleCornerRadius = 20;
-            this.btnAddEntry.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
-            this.btnAddEntry.IdleForecolor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAddEntry.IdleLineColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAddEntry.Location = new System.Drawing.Point(220, 252);
-            this.btnAddEntry.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnAddEntry.Name = "btnAddEntry";
-            this.btnAddEntry.Size = new System.Drawing.Size(127, 45);
-            this.btnAddEntry.TabIndex = 31;
-            this.btnAddEntry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAddEntry.Click += new System.EventHandler(this.btnAddEntry_Click);
-            // 
-            // bunifuCustomLabel18
-            // 
-            this.bunifuCustomLabel18.Font = new System.Drawing.Font("Segoe UI Light", 14F);
-            this.bunifuCustomLabel18.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel18.Location = new System.Drawing.Point(5, 141);
-            this.bunifuCustomLabel18.Name = "bunifuCustomLabel18";
-            this.bunifuCustomLabel18.Size = new System.Drawing.Size(104, 28);
-            this.bunifuCustomLabel18.TabIndex = 30;
-            this.bunifuCustomLabel18.Text = "Username";
-            this.bunifuCustomLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel17
-            // 
-            this.bunifuCustomLabel17.Font = new System.Drawing.Font("Segoe UI Light", 14F);
-            this.bunifuCustomLabel17.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel17.Location = new System.Drawing.Point(5, 194);
-            this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
-            this.bunifuCustomLabel17.Size = new System.Drawing.Size(104, 28);
-            this.bunifuCustomLabel17.TabIndex = 29;
-            this.bunifuCustomLabel17.Text = "Password";
-            this.bunifuCustomLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel16
-            // 
-            this.bunifuCustomLabel16.Font = new System.Drawing.Font("Segoe UI Light", 14F);
-            this.bunifuCustomLabel16.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel16.Location = new System.Drawing.Point(3, 86);
-            this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
-            this.bunifuCustomLabel16.Size = new System.Drawing.Size(104, 28);
-            this.bunifuCustomLabel16.TabIndex = 28;
-            this.bunifuCustomLabel16.Text = "Name";
-            this.bunifuCustomLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel15
-            // 
-            this.bunifuCustomLabel15.Font = new System.Drawing.Font("Segoe UI Light", 20F);
-            this.bunifuCustomLabel15.ForeColor = System.Drawing.Color.White;
-            this.bunifuCustomLabel15.Location = new System.Drawing.Point(113, 5);
-            this.bunifuCustomLabel15.Name = "bunifuCustomLabel15";
-            this.bunifuCustomLabel15.Size = new System.Drawing.Size(337, 50);
-            this.bunifuCustomLabel15.TabIndex = 27;
-            this.bunifuCustomLabel15.Text = "Add new entry";
-            this.bunifuCustomLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtNameEntry
-            // 
-            this.txtNameEntry.BorderColorFocused = System.Drawing.Color.Teal;
-            this.txtNameEntry.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtNameEntry.BorderColorMouseHover = System.Drawing.Color.Teal;
-            this.txtNameEntry.BorderThickness = 3;
-            this.txtNameEntry.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNameEntry.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNameEntry.ForeColor = System.Drawing.Color.Silver;
-            this.txtNameEntry.isPassword = false;
-            this.txtNameEntry.Location = new System.Drawing.Point(113, 76);
-            this.txtNameEntry.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNameEntry.Name = "txtNameEntry";
-            this.txtNameEntry.Size = new System.Drawing.Size(338, 44);
-            this.txtNameEntry.TabIndex = 3;
-            this.txtNameEntry.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtPassEntry
-            // 
-            this.txtPassEntry.BorderColorFocused = System.Drawing.Color.Teal;
-            this.txtPassEntry.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtPassEntry.BorderColorMouseHover = System.Drawing.Color.Teal;
-            this.txtPassEntry.BorderThickness = 3;
-            this.txtPassEntry.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPassEntry.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassEntry.ForeColor = System.Drawing.Color.Silver;
-            this.txtPassEntry.isPassword = false;
-            this.txtPassEntry.Location = new System.Drawing.Point(114, 184);
-            this.txtPassEntry.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPassEntry.Name = "txtPassEntry";
-            this.txtPassEntry.Size = new System.Drawing.Size(337, 44);
-            this.txtPassEntry.TabIndex = 5;
-            this.txtPassEntry.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // txtUserEntry
-            // 
-            this.txtUserEntry.BorderColorFocused = System.Drawing.Color.Teal;
-            this.txtUserEntry.BorderColorIdle = System.Drawing.Color.Gray;
-            this.txtUserEntry.BorderColorMouseHover = System.Drawing.Color.Teal;
-            this.txtUserEntry.BorderThickness = 3;
-            this.txtUserEntry.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUserEntry.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserEntry.ForeColor = System.Drawing.Color.Silver;
-            this.txtUserEntry.isPassword = false;
-            this.txtUserEntry.Location = new System.Drawing.Point(113, 132);
-            this.txtUserEntry.Margin = new System.Windows.Forms.Padding(4);
-            this.txtUserEntry.Name = "txtUserEntry";
-            this.txtUserEntry.Size = new System.Drawing.Size(337, 44);
-            this.txtUserEntry.TabIndex = 4;
-            this.txtUserEntry.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            // 
-            // btnRemove
-            // 
-            this.btnRemove.ActiveBorderThickness = 1;
-            this.btnRemove.ActiveCornerRadius = 20;
-            this.btnRemove.ActiveFillColor = System.Drawing.Color.Crimson;
-            this.btnRemove.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnRemove.ActiveLineColor = System.Drawing.Color.Crimson;
-            this.btnRemove.AutoSize = true;
-            this.btnRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnRemove.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRemove.BackgroundImage")));
-            this.btnRemove.ButtonText = "Remove";
-            this.btnRemove.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemove.ForeColor = System.Drawing.Color.Crimson;
-            this.btnRemove.IdleBorderThickness = 1;
-            this.btnRemove.IdleCornerRadius = 20;
-            this.btnRemove.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnRemove.IdleForecolor = System.Drawing.Color.Crimson;
-            this.btnRemove.IdleLineColor = System.Drawing.Color.Crimson;
-            this.btnRemove.Location = new System.Drawing.Point(224, 395);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(90, 45);
-            this.btnRemove.TabIndex = 25;
-            this.btnRemove.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
-            // 
-            // btnSettings
-            // 
-            this.btnSettings.ActiveBorderThickness = 1;
-            this.btnSettings.ActiveCornerRadius = 20;
-            this.btnSettings.ActiveFillColor = System.Drawing.Color.Teal;
-            this.btnSettings.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnSettings.ActiveLineColor = System.Drawing.Color.Teal;
-            this.btnSettings.AutoSize = true;
-            this.btnSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnSettings.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSettings.BackgroundImage")));
-            this.btnSettings.ButtonText = "Settings";
-            this.btnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSettings.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSettings.ForeColor = System.Drawing.Color.Teal;
-            this.btnSettings.IdleBorderThickness = 1;
-            this.btnSettings.IdleCornerRadius = 20;
-            this.btnSettings.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnSettings.IdleForecolor = System.Drawing.Color.Teal;
-            this.btnSettings.IdleLineColor = System.Drawing.Color.Teal;
-            this.btnSettings.Location = new System.Drawing.Point(420, 395);
-            this.btnSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(90, 45);
-            this.btnSettings.TabIndex = 15;
-            this.btnSettings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(0)))), ((int)(((byte)(21)))));
-            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClose.ErrorImage = null;
-            this.btnClose.Image = global::CPass.Properties.Resources.RedX;
-            this.btnClose.ImageActive = null;
-            this.btnClose.InitialImage = null;
-            this.btnClose.Location = new System.Drawing.Point(744, -2);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(46, 23);
-            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnClose.TabIndex = 14;
-            this.btnClose.TabStop = false;
-            this.btnClose.Zoom = 10;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.ActiveBorderThickness = 1;
-            this.btnAdd.ActiveCornerRadius = 20;
-            this.btnAdd.ActiveFillColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAdd.ActiveForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnAdd.ActiveLineColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAdd.AutoSize = true;
-            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnAdd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAdd.BackgroundImage")));
-            this.btnAdd.ButtonText = "Add";
-            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAdd.IdleBorderThickness = 1;
-            this.btnAdd.IdleCornerRadius = 20;
-            this.btnAdd.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.btnAdd.IdleForecolor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAdd.IdleLineColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnAdd.Location = new System.Drawing.Point(126, 395);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(90, 45);
-            this.btnAdd.TabIndex = 3;
-            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.txtSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtSearch.BackgroundImage")));
-            this.txtSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.txtSearch.ForeColor = System.Drawing.Color.Teal;
-            this.txtSearch.Icon = ((System.Drawing.Image)(resources.GetObject("txtSearch.Icon")));
-            this.txtSearch.Location = new System.Drawing.Point(126, 16);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(384, 40);
-            this.txtSearch.TabIndex = 1;
-            this.txtSearch.text = "";
-            this.txtSearch.OnTextChange += new System.EventHandler(this.txtSearch_OnTextChange);
-            // 
             // lstInfo
             // 
             this.lstInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
@@ -1309,18 +1304,20 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmContent_MouseDown);
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.pnlCopied.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
+            this.pnlAddNewEntry.ResumeLayout(false);
+            this.pnlAddNewEntry.PerformLayout();
             this.pnlWipe.ResumeLayout(false);
             this.pnlWipe.PerformLayout();
             this.pnlSettings.ResumeLayout(false);
             this.pnlSettings.PerformLayout();
-            this.pnlCopied.ResumeLayout(false);
             this.pnlCopy.ResumeLayout(false);
             this.pnlCopy.PerformLayout();
             this.pnlAreYouSure.ResumeLayout(false);
             this.pnlAreYouSure.PerformLayout();
-            this.pnlAddNewEntry.ResumeLayout(false);
-            this.pnlAddNewEntry.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnClose2)).EndInit();
             this.pnlLoading.ResumeLayout(false);
@@ -1331,7 +1328,6 @@
 
         #endregion
         private Bunifu.Framework.UI.BunifuCustomLabel lblHint2;
-        private System.Windows.Forms.Timer tmrFlash;
         private System.Windows.Forms.Panel pnlContent;
         private Bunifu.Framework.UI.BunifuThinButton2 btnCopy;
         private System.Windows.Forms.Panel pnlAddNewEntry;

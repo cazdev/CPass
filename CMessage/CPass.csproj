@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Entry.cs" />
     <Compile Include="ViewModel\ViewModel.cs" />
     <Compile Include="View\frmCMessage.cs">
       <SubType>Form</SubType>
